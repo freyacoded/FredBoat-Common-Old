@@ -1,4 +1,4 @@
-package fredboat.common.db;
+package fredboat.commons.db;
 
 import java.util.HashMap;
 import net.dv8tion.jda.entities.Guild;
