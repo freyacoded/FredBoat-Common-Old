@@ -1,4 +1,4 @@
-package fredboat.commons.util;
+package fredboat.commonss.util;
 
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
