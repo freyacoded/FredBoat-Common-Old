@@ -10,4 +10,6 @@ public class CommonConstants {
     public static final String MAIN_BOT_ID = "150376112944447488";
     public static final String OWNER_ID = "81011298891993088";
     
+    public static final boolean DEBUG_BETA_USE_CUSTOM_PREFIXES = false;
+    
 }

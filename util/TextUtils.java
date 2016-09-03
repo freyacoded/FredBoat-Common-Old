@@ -3,7 +3,7 @@ package fredboat.commons.util;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import fredboat.MusicFredBoat;
-import fredboat.commandmeta.MessagingException;
+import fredboat.commons.commandmeta.MessagingException;
 import net.dv8tion.jda.MessageBuilder;
 import net.dv8tion.jda.entities.Message;
 import net.dv8tion.jda.entities.MessageChannel;

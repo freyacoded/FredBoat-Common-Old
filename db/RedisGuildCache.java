@@ -1,5 +1,6 @@
 package fredboat.commons.db;
 
+import fredboat.commons.util.CommonConstants;
 import java.util.Map;
 
 public class RedisGuildCache {
@@ -17,6 +18,11 @@ public class RedisGuildCache {
     public Map<String, String> getData() {
         ensureRecentData();
         return data;
+    }
+    
+    public String getPrefix(){
+        Map<String, String> d = getData();
+        return d.getOrDefault("prefix", CommonConstants.DEFAULT_BOT_PREFIX);
     }
 
     private void ensureRecentData() {
